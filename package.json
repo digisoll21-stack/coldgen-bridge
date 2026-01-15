@@ -1,19 +1,17 @@
+
 {
   "name": "coldgen-bridge",
-  "version": "1.0.0",
-  "main": "index.js",
-  "description": "ColdGen Pro Bridge",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "version": "2.1.0",
+  "description": "Email bridge for ColdGen Pro",
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.2.1",
-    "nodemailer": "^7.0.12"
-  },
-  "scripts": {
-    "start": "node bridge.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "express": "^4.18.2",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.6.4",
+    "nodemailer": "^6.9.7"
   }
 }
-
